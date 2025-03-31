@@ -73,6 +73,7 @@ class WorkspacePermissions(BaseModel):
     models: bool = False
     knowledge: bool = False
     prompts: bool = False
+    public_sharing: bool = True
     tools: bool = False
 
 
